@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/a38bafda9e.js" crossorigin="anonymous"></script>
+    <title>Arts Probably</title>
+    <link rel="shortcut icon" href="ico-v4.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="showcase">
+        <div class="background">
+        </div>
+        <div class="content">
+            <img src="logo.png" class="logo" alt="Arts Probably logo" />
+            <div class="title">
+                Welcome to Arts Probably official website.
+            </div>
+            <div class="text">
+                All we do is just posting beauteous illustrations.
+            </div>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section class="services">
+        <div class="container grid-3 center">
+            <div>
+                <i class="fas fa-heart fa-3x"></i>
+                <h3>Favorite</h3>
+                <p>This is <b>not</b> autoposting. We choose only illustrations that we like ourselves.</p>
+            </div>
+            <div>
+                <i class="fas fa-ad fa-3x"></i>
+                <h3>Ads</h3>
+                <p><b>No "Mega"</b>'s out here. All advertisements are posted with the 'ad' tag.</p>
+            </div>
+            <div>
+                <i class="fas fa-fire fa-3x"></i>
+                <h3>New</h3>
+                <p>We publish
+                    <!--  <b>new</b> --> illustrations that you most likely haven't seen before.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="easy_background.js"></script>
+
+    <script>
+        easy_background(".background",
+
+            {
+                slide: [
+                    "slideshow-images/full_1.jpg",
+                    "slideshow-images/full_10.jpg",
+                    "slideshow-images/full_12.jpg",
+                    "slideshow-images/full_13.png",
+                    "slideshow-images/full_6.jpg",
+                    "slideshow-images/full_7.jpg",
+                    "slideshow-images/full_9.jpg",
+                    "slideshow-images/full_2.jpg",
+                    "slideshow-images/full_11.jpg",
+                    "slideshow-images/full_3.png",
+                    "slideshow-images/full_14.jpg",
+                    "slideshow-images/full_5.jpg"
+                ],
+
+                delay: [8000, 8000, 8000, 8000, 8000, 8000, 8000, 8000, 8000, 8000, 8000, 8000]
+            }
+
+
+        );
+    </script>
+    <!-- About -->
+    <section class="about bg-light">
+        <div class="container">
+            <div class="grid-2">
+                <div class="center">
+                    <i class="fas fa-user-friends fa-10x"></i>
+                    <!-- <i class="fas fa-laptop-code fa-10x"></i> -->
+                </div>
+                <div>
+                    <h3>About us</h3>
+                    <p>I like pizza ¯\_(ツ)_/¯</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="center bg-dark">
+        <p>Arts Probably &copy; 2020</p>
+    </footer>
+</body>
+
+</html>
